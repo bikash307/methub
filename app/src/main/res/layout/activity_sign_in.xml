@@ -50,9 +50,12 @@
                     app:boxStrokeColor="@color/black"
                     android:textColorHint="@color/black"
                     app:errorTextColor="#F00">
+
                     <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/enterName"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"/>
+                        android:layout_height="match_parent"
+                        android:hint="Enter Name" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <EditText
